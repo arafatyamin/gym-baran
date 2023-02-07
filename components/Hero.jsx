@@ -9,8 +9,7 @@ import logo3 from '../pages/asset/Mask Group 3.png'
 import logo4 from '../pages/asset/Mask Group 4.png'
 import image1 from "../pages/asset/image 77.png"
 import icon2 from "../pages/asset/Group 3867.png"
-import icon3 from "../pages/asset/Group 3863.png"
-import icon1group from "../pages/asset/Service3.png"
+import icon1group from "../pages/asset/service3.png"
 import icon2imag from "../pages/asset/Group.png"
 import bg2 from "../pages/asset/Vector 32.png"
 
