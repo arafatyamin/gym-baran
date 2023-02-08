@@ -41,13 +41,13 @@ const Hero = () => {
                 </div>
                 </div>
             <div className="relative w-full lg:h-[580px] h-[440px] mx-auto">
-            <Image src={image1} className="absolute right-[60px] bottom-0  w-[310px] px-1 lg:px-0 lg:w-[358px] lg:h-[580px] z-10" alt=""></Image>
+            <Image src={image1} className="absolute right-[0px] lg:right-[60px] bottom-0 px-1 lg:px-0 z-10 w-[256px] lg:w-[340px]" alt=""></Image>
             {/* background imag start*/}
-            <div className="absolute w-[304px] lg:w-[434px] h-[334px] lg:h-[434px] rounded-full bg-[#E6E6FF]  right-[80px]  bottom-0 "></div>
-            <Image src={bg2} className="absolute w-[344px] lg:w-[364px] right-[41px]  bottom-0" alt=""></Image>
+            <div className="absolute w-[304px] lg:w-[434px] h-[234px] lg:h-[434px] rounded-full bg-[#E6E6FF]  right-[30px]  bottom-0 "></div>
+            <Image src={bg2} className="absolute w-[246px] lg:w-[364px] right-[41px]  bottom-0" alt=""></Image>
             {/* background imag end */}
                 {/* members start*/} 
-            <div className="absolute left-0 top-[79px] w-[187px] h-[80px] bg-[#FFFFFF] grid grid-cols-2 z-10 items-center rounded-[10px]">
+            <div className="absolute -left-11 top-[100px] lg:top-[79px] lg:left-0 lg:w-[187px] h-[80px] bg-[#FFFFFF] grid grid-cols-2 z-10 items-center rounded-[10px]">
             <div className="w-[35px] lg:w-[60px] h-[35px] lg:h-[60px] ml-5 rounded-full bg-gradient-to-r from-[#F8A422] to-[#FEDEAC] flex justify-center items-center">
             <Image alt="" src={icon1group} height={35} width={35} ></Image>
             </div>
@@ -57,7 +57,7 @@ const Hero = () => {
             </div>
             </div>
             {/* members end */}
-            <div className="absolute right-8 lg:right-4 lg:top-[96px] z-20  w-[60px] h-[60px] rounded-full bg-gradient-to-r from-[#4BACE1] to-[#D8F1FF] flex justify-center items-center">
+            <div className="absolute -right-6 lg:right-4 top-[90px] lg:top-[96px] z-20  w-[60px] h-[60px] rounded-full bg-gradient-to-r from-[#4BACE1] to-[#D8F1FF] flex justify-center items-center">
             <Image src={icon2} className='animate-bounce' alt="" ></Image>
             </div>
             <div className="absolute w-14 h-14 rounded-full bg-gradient-to-r from-[#5478EF] to-[#D6DFFF] lg:-left-[50px] bottom-10 -left-10 lg:top-[350px] z-0 flex items-center justify-center" alt="">
@@ -65,7 +65,7 @@ const Hero = () => {
             </div>
             
             {/* trainer start */}
-            <div className="absolute -right-[50px] bottom-[43px] w-[187px] h-[157px] bg-[#FFFFFF] flex flex-col justify-center text-center z-10 items-center rounded-[10px] shadow-2xl">
+            <div className="absolute -right-[40px] bottom-[43px] w-[140px] lg:w-[187px] h-[157px] bg-[#FFFFFF] flex flex-col justify-center text-center z-10 items-center rounded-[10px] shadow-2xl">
             <div className="w-[50px] lg:w-[66px] h-[50px] lg:h-[66px] rounded-full bg-gradient-to-r from-[#6765F0] to-[#6765F0] flex justify-center items-center text-3xl lg:text-7xl overflow-hidden">
                 <FcBusinessman />
             </div>
