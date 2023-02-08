@@ -8,8 +8,8 @@ import icon3 from "../pages/asset/service3.png"
 const Services = () => {
     return (
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 bg-gradient-to-r from-[#6462F0] to-[#9190E9]  lg:p-[85px] p-[28px] mb-[120px]">
-            <div className="flex gap-[30px]">
-                <div className="bg-[#ABAAF1] p-6 rounded-[20px] flex justify-center items-center">
+            <div className="flex gap-3 lg:gap-[30px]">
+                <div className="bg-[#ABAAF1] px-2 lg:p-6 rounded-[20px] flex justify-center items-center">
                     <Image src={icon1} width='50' height='50' alt=""
                     />
                 </div>
@@ -21,8 +21,8 @@ const Services = () => {
                 </Link>
                 </div>
             </div>
-            <div className="flex gap-[30px]">
-                <div className="bg-[#ABAAF1] p-6 rounded-[20px] flex justify-center items-center">
+            <div className="flex gap-3 lg:gap-[30px]">
+                <div className="bg-[#ABAAF1] px-3 lg:p-6 rounded-[20px] flex justify-center items-center">
                     <Image src={icon2} width='50' height='50' alt=""
                     />
                 </div>
@@ -35,8 +35,8 @@ sherd challenge</h5>
                 </Link>
                 </div>
             </div>
-            <div className="flex gap-[30px]">
-                <div className="bg-[#ABAAF1] p-6 rounded-[20px] flex justify-center items-center">
+            <div className="flex gap-3 lg:gap-[30px]">
+                <div className="bg-[#ABAAF1] px-3 lg:p-6 rounded-[20px] flex justify-center items-center">
                     <Image src={icon3} width='50' height='50' alt=""
                     />
                 </div>
